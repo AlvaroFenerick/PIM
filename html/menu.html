@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Menu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-indigo-100 via-white to-green-100 min-h-screen flex items-center justify-center p-4">
+
+    <main class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-sm text-center space-y-6">
+        <h2 class="text-2xl font-bold text-indigo-700">Bem-vindo!</h2>
+
+        <button 
+            class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition focus:outline-none focus:ring-4 focus:ring-blue-300"
+            type="button"
+            onclick="location.href='gerenciador.html'"
+        >
+            Gerenciador de Itens
+        </button>
+
+        <button 
+            class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition focus:outline-none focus:ring-4 focus:ring-green-300"
+            type="button"
+            onclick="location.href='relatorios.html'"
+        >
+            Relatórios
+        </button>
+
+        <button 
+            class="w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red-700 transition focus:outline-none focus:ring-4 focus:ring-red-300"
+            type="button"
+            onclick="location.href='login.html'"
+        >
+            Sair
+        </button>
+    </main>
+
+</body>
+</html>
